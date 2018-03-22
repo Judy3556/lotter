@@ -1,0 +1,6 @@
+c:\git\schoolwork322\schoolwork322\bin\Debug\schoolwork322.exe.config
+c:\git\schoolwork322\schoolwork322\bin\Debug\schoolwork322.exe
+c:\git\schoolwork322\schoolwork322\bin\Debug\schoolwork322.pdb
+c:\git\schoolwork322\schoolwork322\obj\Debug\schoolwork322.csprojResolveAssemblyReference.cache
+c:\git\schoolwork322\schoolwork322\obj\Debug\schoolwork322.exe
+c:\git\schoolwork322\schoolwork322\obj\Debug\schoolwork322.pdb
