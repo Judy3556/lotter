@@ -1,0 +1,6 @@
+c:\git\work322\work322\bin\Debug\work322.exe.config
+c:\git\work322\work322\bin\Debug\work322.exe
+c:\git\work322\work322\bin\Debug\work322.pdb
+c:\git\work322\work322\obj\Debug\work322.csprojResolveAssemblyReference.cache
+c:\git\work322\work322\obj\Debug\work322.exe
+c:\git\work322\work322\obj\Debug\work322.pdb
