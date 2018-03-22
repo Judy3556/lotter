@@ -18,12 +18,19 @@ namespace work322
             int[] heigh = { 173, 0, 179, 155, 183, 170, 163, 174, 165, 189, 177, 180, 154, 170, 170, 173, 165, 158, 180, 165, 153, 175, 162, 165, 0, 160, 165, 173, 164, 177, 177, 180, 170, 151, 176, 180, 168, 152, 666, 2147483647, 165, 155, 777, 173, 169, 170, 169, 171, 0, 170, 150, 160, 155, 164, 163, 165, 184, 0, 155, 0, 168, 160, 169, 0, 150 };
             Random rand = new Random();
             Console.WriteLine();
+            int herN = -1;
+            string sn = Console.ReadLine();
             int r = rand.Next(0, heigh.Length);
             Console.WriteLine(namber[r]+" "+blood[r]+" "+fm[r]+" "+star[r]+" "+name[r]+" " + r + ": " + heigh[r]);
             for (int i=0; i < name.Length; i++)
             {
-                Console.WriteLine(name[i]);
+                if (sn == namber[i])
+                {
+                    herN = i;
+
+                }
             }
+            Console.WriteLine(herN);
             Console.ReadLine();
                 }
     }
