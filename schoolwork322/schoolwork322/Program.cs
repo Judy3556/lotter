@@ -18,9 +18,25 @@ namespace schoolwork322
             int r4 = rand.Next(0, 43);
             int r5 = rand.Next(0, 43);
             int r6 = rand.Next(0, 43);
-            
-
-            Console.WriteLine("{0:00} {1:00} {2:00} {3:00} {4:00} {5:00} ", r1, r2, r3, r4, r5, r6);
+            Console.WriteLine();
+            Console.WriteLine("                   本期中獎號碼為");
+            Console.WriteLine("                -------------------");
+            Console.WriteLine("                 {0:00} {1:00} {2:00} {3:00} {4:00} {5:00} ", r1, r2, r3, r4, r5, r6);
+            Console.WriteLine("                --------------------");
+            Console.WriteLine("                   歡迎下次購買");
+            Console.WriteLine();
+            Console.WriteLine("              0                0                            ");
+            Console.WriteLine("             0  0             0  0                             ");
+            Console.WriteLine("            0    0           0    0                        ");
+            Console.WriteLine("           0      0 0 0 0 0 0      0                                          ");
+            Console.WriteLine("          0                          0                          ");
+            Console.WriteLine("         0                            0                          ");
+            Console.WriteLine("         0      0 0         0 0       0                     ");
+            Console.WriteLine("         0       0           0        0                         ");
+            Console.WriteLine("         0                            0                ");
+            Console.WriteLine("          0         0 0 0 0          0                ");
+            Console.WriteLine("           0                       0                   ");
+            Console.WriteLine("             0 0 0 0 0 0 0 0 0 0 0                           ");
             Console.ReadLine();
         }
     }
