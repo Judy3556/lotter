@@ -41,16 +41,18 @@ namespace new_work
                         O += 1;
                         break;
                 }
-                double Apercent = Math.Round((double)A / blood.Length * 100, 1);
-                double Bpercent = Math.Round((double)B / blood.Length * 100, 1);
-                double ABpercent = Math.Round((double)C / blood.Length * 100, 1);
-                double Opercent = Math.Round((double)O / blood.Length * 100, 1);
-
-
-
+              
             }
-            
-            
+            double Apercent = Math.Round((double)A / blood.Length * 100, 1);
+            double Bpercent = Math.Round((double)B / blood.Length * 100, 1);
+            double ABpercent = Math.Round((double)C / blood.Length * 100, 1);
+            double Opercent = Math.Round((double)O / blood.Length * 100, 1);
+            Console.WriteLine("B:{0}%", Bpercent);
+            Console.WriteLine("A:{0}%", Apercent);
+            Console.WriteLine("AB:{0}%", ABpercent);
+            Console.WriteLine("O:{0}%", Opercent);
+
+
 
             Console.Read();
         }
