@@ -29,6 +29,7 @@ namespace work322
                     herN = i;
 
                 }
+            }
                 int count = 0;
                 int A = 0;
                 int B = 0;
@@ -71,13 +72,13 @@ namespace work322
                     if (fm[x] == "女")
                     {
                         h++;
-                        sum = sum + heigh[i];
+                        sum = sum + heigh[x];
 
                     }
-                    if (fm[i] == "男")
+                    if (fm[x] == "男")
                     {
                         w++;
-                        sam = sam + heigh[i];
+                        sam = sam + heigh[x];
 
                     }
 
@@ -88,29 +89,31 @@ namespace work322
                 Console.WriteLine("   " + sum + "  " + gm + "   " + sam + "  " + bm);
                 int max = 0;
                 int min = 0;
-                for (int z = 0; z < heigh.Length; z++)
+            for (int z = 0; z < heigh.Length; z++)
+            {
+                if (heigh[z] > 100 && heigh[z] < 200)
                 {
-                    if (heigh[i] > 100 && heigh[i] < 200)
+                    if (heigh[z] > max)
                     {
-                        if (heigh[i] > max)
-                        {
-                            max = heigh[i];
-                        }
+                        max = heigh[z];
                     }
-                    else if (heigh[i] > 100 && heigh[i] < 200)
+                }
+                else if (heigh[z] > 100 && heigh[z] < 200)
+                {
+                    if (heigh[z] < min)
                     {
-                        if (heigh[i] < min)
-                        {
-                            min = heigh[i];
-                        }
-                        Console.WriteLine(min + " " + max);
+                        min = heigh[z];
+                    }
+                    Console.WriteLine(min + " " + max);
 
-                        Console.Read();
-                    }
-                    Console.WriteLine(herN);
+                    
                 }
             }
-     
+                    Console.WriteLine(herN);
+            Console.Read();
+                }
+            }
+        }
 
 
     

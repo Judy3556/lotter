@@ -8,3 +8,5 @@ C:\42\work322\work322\bin\Debug\work322.exe.config
 C:\42\work322\work322\obj\Debug\work322.exe
 C:\42\work322\work322\obj\Debug\work322.pdb
 C:\42\work322\work322\obj\Debug\work322.csprojResolveAssemblyReference.cache
+C:\42\work322\work322\bin\Debug\work322.exe
+C:\42\work322\work322\bin\Debug\work322.pdb
