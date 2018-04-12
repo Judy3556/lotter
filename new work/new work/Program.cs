@@ -23,35 +23,36 @@ namespace new_work
             int A = 0;
             int B = 0;
             int C = 0;
+            int O = 0;
             for (int j = 0; j < blood.Length; j++)
             {
-                Console.WriteLine(blood[j]);
-                if (blood[j] == "O")
+                switch (blood[j])
                 {
-                    count++;
+                    case "A":
+                        A += 1;
+                        break;
+                    case "B":
+                        B += 1;
+                        break;
+                    case "AB":
+                        C += 1;
+                        break;
+                    case "O":
+                        O += 1;
+                        break;
+                }
+                double Apercent = Math.Round((double)A / blood.Length * 100, 1);
+                double Bpercent = Math.Round((double)B / blood.Length * 100, 1);
+                double ABpercent = Math.Round((double)C / blood.Length * 100, 1);
+                double Opercent = Math.Round((double)O / blood.Length * 100, 1);
 
-                }
-                if (blood[j] == "A")
-                {
-                    A++;
-                }
-                if (blood[j] == "B")
-                {
-                    B++;
-                }
-                if (blood[j] == "AB")
-                {
-                    C++;
-                }
 
 
             }
-            double o = (double)count / blood.Length * 100;
-            double a = (double)A / blood.Length * 100;
-            double b = (double)B / blood.Length * 100;
-            double ab = (double)C / blood.Length * 100;
-            Console.WriteLine("o=" + count + "        a=" + A + "        b:" + B + "        AB=" + C);
-            Console.WriteLine(o + " %" + a + "% " + b + "% " + ab + "% ");
+            
+            
+
+            Console.Read();
         }
     }
 }
