@@ -10,3 +10,6 @@ C:\42\schoolwork322\schoolwork322\obj\Debug\schoolwork322.pdb
 C:\42\schoolwork322\schoolwork322\bin\Debug\schoolwork322.exe
 C:\42\schoolwork322\schoolwork322\bin\Debug\schoolwork322.pdb
 C:\42\schoolwork322\schoolwork322\obj\Debug\schoolwork322.csprojResolveAssemblyReference.cache
+C:\github\schoolwork322\schoolwork322\bin\Debug\schoolwork322.exe.config
+C:\github\schoolwork322\schoolwork322\obj\Debug\schoolwork322.exe
+C:\github\schoolwork322\schoolwork322\obj\Debug\schoolwork322.pdb
